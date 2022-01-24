@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id='fleet_vehicle_action' model='ir.actions.act_window'>
+        <field name="name">Vehicles</field>
+        <field name="res_model">fleet.vehicle</field>
+        <field name="view_mode">kanban,tree,form,activity</field>
+    </record>
+
+    <menuitem name="Frota" id="fleet_vehicles" sequence="2" />
+    <menuitem action="fleet_vehicle_action" parent="fleet_vehicles" id="fleet_vehicle_menu" sequence="1"/>
+
+</odoo>
