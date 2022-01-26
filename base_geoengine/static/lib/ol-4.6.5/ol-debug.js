@@ -78107,7 +78107,7 @@ ol.source.OSM = function(opt_options) {
     options.crossOrigin : 'anonymous';
 
   var url = options.url !== undefined ?
-    options.url : 'https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    options.url : 'https://mt0.google.com/vt/lyrs=m&hl=${navigator.language}&x={x}&y={y}&z={z}&s=Ga';
 
   ol.source.XYZ.call(this, {
     attributions: attributions,
