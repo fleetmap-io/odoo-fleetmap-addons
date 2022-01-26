@@ -22,6 +22,7 @@ class FSMOrder(models.Model):
             FunctionName='my-function',
             Payload='{}',
         )
+        _logger.info("lambda: %s", response)
         return res
 
     @api.onchange("location_id")
