@@ -10,6 +10,6 @@
     'external_dependencies': {
         'python' : ['pytraccar','asyncio','aiohttp']
     },
-    'auto_install': True,
+    'auto_install': False,
     'license': 'LGPL-3'
 }
