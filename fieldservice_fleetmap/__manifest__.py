@@ -9,12 +9,7 @@
     "category": "Field Service",
     "author": "Fleetmap",
     "website": "https://github.com/fleetmap-io",
-    "depends": ["fieldservice", "fleet"],
-    "data": [
-        "views/fsm_vehicle.xml",
-        "views/fleet_vehicle.xml",
-        "wizard/fsm_fleet_wizard.xml",
-    ],
+    "depends": ["fieldservice"],
     "license": "AGPL-3",
     "development_status": "Beta",
     "maintainers": ["fleetmap"],
