@@ -28,7 +28,7 @@ class FSMOrder(models.Model):
         _logger.info("vals: %s", vals)
         url = urljoin(endpoint, 'fsm/order/create')
         _logger.info('url: %s, result: %s', url, requests.post(url, vals))
-        doc_ref = db.collection(u'jobs').document(vals.name)
+        doc_ref = db.collection(u'jobs').document(vals['name'])
         doc_ref.set(vals)
         return res
 
