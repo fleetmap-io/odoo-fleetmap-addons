@@ -29,7 +29,8 @@ class FSMOrder(models.Model):
         url = urljoin(endpoint, 'fsm/order/create')
         _logger.info('url: %s, result: %s', url, requests.post(url, vals))
         doc_ref = db.collection(u'jobs').document(vals['name'])
-        doc_ref.set(vals)
+        keys_values = vals.items()
+        doc_ref.set({str(key): str(value) for key, value in keys_values})
         return res
 
     @api.onchange("location_id")
