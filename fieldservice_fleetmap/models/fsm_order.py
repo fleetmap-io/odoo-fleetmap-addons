@@ -21,7 +21,7 @@ class FSMOrder(models.Model):
     def create(self, vals):
         res = super().create(vals)
         _logger.info("vals: %s", vals)
-        url = urljoin(endpoint, '/fsm/order/create')
+        url = urljoin(endpoint, 'fsm/order/create')
         _logger.info(url, requests.post(url, vals))
         return res
 
