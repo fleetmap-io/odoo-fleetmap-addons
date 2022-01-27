@@ -9,7 +9,7 @@
     "category": "Field Service",
     "author": "Fleetmap",
     "website": "https://github.com/fleetmap-io",
-    "depends": ["fieldservice", "fieldservice_geoengine"],
+    "depends": ["fieldservice", "base_geoengine"],
     "license": "AGPL-3",
     "development_status": "Beta",
     "maintainers": ["fleetmap"],

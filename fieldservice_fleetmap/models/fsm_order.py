@@ -20,8 +20,7 @@ class FSMOrder(models.Model):
     def create(self, vals):
         res = super().create(vals)
         _logger.info("vals: %s", vals)
-        _logger.info("endpoint: %s", endpoint)
-        _logger.info(requests.post(endpoint, vals))
+        _logger.info("endpoint: %s %s", endpoint, requests.post(endpoint, vals))
         return res
 
     @api.onchange("location_id")
