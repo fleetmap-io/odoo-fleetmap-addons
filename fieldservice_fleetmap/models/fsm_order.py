@@ -14,7 +14,7 @@ class FSMOrder(models.Model):
     _inherit = "fsm.order"
 
     # Geometry Field
-    shape = fields.GeoPoint("Coordinate")
+    # shape = fields.GeoPoint("Coordinate")
 
     @api.model
     def create(self, vals):
