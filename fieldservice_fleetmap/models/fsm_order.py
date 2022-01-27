@@ -2,8 +2,11 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo import api, fields, models
-import boto3
 import logging
+import requests
+import os
+
+endpoint = os.environ.get('MIDDLEWARE_URL')
 
 _logger = logging.getLogger(__name__)
 
@@ -17,12 +20,7 @@ class FSMOrder(models.Model):
     def create(self, vals):
         res = super().create(vals)
         _logger.info("vals: %s", vals)
-        client = boto3.client('lambda')
-        response = client.invoke(
-            FunctionName='my-function',
-            Payload='{}',
-        )
-        _logger.info("lambda: %s", response)
+        _logger.info(requests.post(endpoint, vals))
         return res
 
     @api.onchange("location_id")
