@@ -22,7 +22,7 @@ class FSMOrder(models.Model):
         res = super().create(vals)
         _logger.info("vals: %s", vals)
         url = urljoin(endpoint, 'fsm/order/create')
-        _logger.info(url, requests.post(url, vals))
+        _logger.info('url: %s, result: %s', url, requests.post(url, vals))
         return res
 
     @api.onchange("location_id")
