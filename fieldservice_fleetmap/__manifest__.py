@@ -7,19 +7,11 @@
     "summary": "Field Service integration with Fleetmap",
     "version": "13.0.1.0.0",
     "category": "Field Service",
-    "author": "Brian McMaster, "
-    "Open Source Integrators, "
-    "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/field-service",
-    "depends": ["fieldservice", "fleet"],
-    "data": [
-        "views/fsm_vehicle.xml",
-        "views/fleet_vehicle.xml",
-        "wizard/fsm_fleet_wizard.xml",
-    ],
+    "author": "Fleetmap",
+    "website": "https://github.com/fleetmap-io",
+    "depends": ["fieldservice"],
     "license": "AGPL-3",
     "development_status": "Beta",
-    "maintainers": ["wolfhall", "max3903", "brian10048"],
-    "pre_init_hook": "pre_init_hook",
+    "maintainers": ["fleetmap"],
     "installable": True,
 }
