@@ -5,6 +5,7 @@ from odoo import api, fields, models
 import logging
 import requests
 import os
+from urllib.parse import urljoin
 
 endpoint = os.environ.get('MIDDLEWARE_URL')
 
@@ -20,7 +21,7 @@ class FSMOrder(models.Model):
     def create(self, vals):
         res = super().create(vals)
         _logger.info("vals: %s", vals)
-        _logger.info("endpoint: %s %s", endpoint, requests.post(endpoint, vals))
+        _logger.info(requests.post(urljoin(endpoint, '/fsm/order/create'), vals))
         return res
 
     @api.onchange("location_id")
