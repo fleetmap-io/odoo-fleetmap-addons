@@ -23,8 +23,13 @@ class FSMOrder(models.Model):
         res = super().create(vals)
         _logger.info("vals: %s", vals)
         doc_ref = db.collection(u'jobs').document(vals['name'])
-        keys_values = vals.items()
-        doc_ref.set({str(key): str(value) for key, value in keys_values})
+        new_dict = {}
+        for key, value in vals.items():
+            if hasattr(value, '__len__'):
+                new_dict[key] = str(value)
+            else:
+                new_dict[key] = value
+        doc_ref.set(new_dict)
         return res
 
     @api.onchange("location_id")
