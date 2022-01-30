@@ -31,7 +31,7 @@ class FSMOrder(models.Model):
     def unlink(self):
         doc_ref = db.collection(u'jobs').document(self.name)
         doc_ref.delete()
-        res = super().unlink()
+        super().unlink()
 
     @api.onchange("location_id")
     def onchange_location_id(self):
