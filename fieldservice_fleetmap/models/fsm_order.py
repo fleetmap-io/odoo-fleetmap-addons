@@ -26,6 +26,9 @@ class FSMOrder(models.Model):
             else:
                 new_dict[key] = value
         doc_ref.set(new_dict)
+        doc_ref = db.collection(u'jobs').document(self.id)
+        doc_ref.set(self)
+
         return res
 
     def unlink(self):
