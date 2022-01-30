@@ -26,7 +26,7 @@ class FSMOrder(models.Model):
             else:
                 new_dict[key] = value
         doc_ref.set(new_dict)
-        _logger.info("self: %s", self)
+        _logger.info("self id: %d", self.id)
 
         return res
 
