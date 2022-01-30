@@ -1,8 +1,4 @@
-# Copyright (C) 2018 Open Source Integrators
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
-
 import logging
-import requests
 import os
 import firebase_admin
 from odoo import api, fields, models
@@ -31,6 +27,11 @@ class FSMOrder(models.Model):
                 new_dict[key] = value
         doc_ref.set(new_dict)
         return res
+
+    def unlink(self):
+        res = super().unlink()
+        doc_ref = db.collection(u'jobs').document(self.name)
+        doc_ref.delete()
 
     @api.onchange("location_id")
     def onchange_location_id(self):
