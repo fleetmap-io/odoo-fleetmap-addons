@@ -26,14 +26,17 @@ class FSMOrder(models.Model):
             else:
                 new_dict[key] = value
         doc_ref.set(new_dict)
-        _logger.info("self id: %d", self.id)
-
+        _logger.info("res %s", res)
         return res
 
     def unlink(self):
         doc_ref = db.collection(u'jobs').document(self.name)
         doc_ref.delete()
         super().unlink()
+
+    def write(self, vals):
+        res = super(FSMOrder, self).write(vals)
+        return res
 
     @api.onchange("location_id")
     def onchange_location_id(self):
