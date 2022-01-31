@@ -26,7 +26,7 @@ class FSMOrder(models.Model):
             else:
                 new_dict[key] = value
         doc_ref.set(new_dict)
-        _logger.info("res %s", res)
+        _logger.info("res id: %s", res.id)
         return res
 
     def unlink(self):
@@ -37,6 +37,8 @@ class FSMOrder(models.Model):
     def write(self, vals):
         _logger.info('%s write %s', self, vals)
         res = super(FSMOrder, self).write(vals)
+        doc_ref = db.collection(u'jobs').document(self.name)
+        doc_ref.set(vals)
         return res
 
     @api.onchange("location_id")
