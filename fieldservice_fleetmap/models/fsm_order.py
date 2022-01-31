@@ -35,7 +35,9 @@ class FSMOrder(models.Model):
         super().unlink()
 
     def write(self, vals):
+        _logger.info('write %s', vals)
         res = super(FSMOrder, self).write(vals)
+        _logger.info('res %s', res)
         return res
 
     @api.onchange("location_id")
