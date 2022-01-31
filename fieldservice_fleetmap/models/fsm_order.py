@@ -38,7 +38,7 @@ class FSMOrder(models.Model):
         _logger.info('%s write %s', self.id, vals)
         res = super(FSMOrder, self).write(vals)
         doc_ref = db.collection(u'jobs').document(self.name)
-        doc_ref.update(vals)
+        doc_ref.set(vals, merge=True)
         return res
 
     @api.onchange("location_id")
