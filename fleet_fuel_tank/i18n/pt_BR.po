@@ -356,7 +356,7 @@ msgstr "Referência da fatura"
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_fleet_vehicle_log_fuel_inherit_bi
 msgid "Kilometer"
-msgstr "Quilómetro"
+msgstr " Quilómetros"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__last_fuel_adding_date
@@ -426,7 +426,7 @@ msgstr "Actualizado em"
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__liter
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_kanban
 msgid "Liter"
-msgstr "Litro"
+msgstr "Litros"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_filling_history__fuel_liter
