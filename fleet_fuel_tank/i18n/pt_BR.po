@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-17 21:57+0000\n"
-"PO-Revision-Date: 2022-05-17 18:03-0400\n"
+"PO-Revision-Date: 2022-05-17 19:17-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -95,79 +95,79 @@ msgstr "Id da média de consumo"
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Consumption Details"
-msgstr ""
+msgstr "Detalhe do consumo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle__consumption_average_history_ids
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_fleet_vehicle_inherit_bi
 msgid "Consumption History"
-msgstr ""
+msgstr "História de consumo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__contract_id
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__contract_id
 #: model:ir.model.fields.selection,name:fleet_fuel_tank.selection__fleet_vehicle_cost__cost_type__contract
 msgid "Contract"
-msgstr ""
+msgstr "Contrato"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_cost__contract_id
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__contract_id
 msgid "Contract attached to this cost"
-msgstr ""
+msgstr "Contrato associado"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__cost_id
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_cost_view_tree
 msgid "Cost"
-msgstr ""
+msgstr "Custo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__description
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__description
 msgid "Cost Description"
-msgstr ""
+msgstr "Descrição do custo"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_form
 msgid "Cost Details"
-msgstr ""
+msgstr "Detalhe do custo"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 msgid "Cost Subtype"
-msgstr ""
+msgstr "Subtipo de custo"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 msgid "Cost Type"
-msgstr ""
+msgstr "Tipo de custo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model,name:fleet_fuel_tank.model_fleet_vehicle_cost
 msgid "Cost related to a vehicle"
-msgstr ""
+msgstr "Custo associado a um veículo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_cost__cost_subtype_id
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__cost_subtype_id
 msgid "Cost type purchased with this cost"
-msgstr ""
+msgstr "Tipo de custo "
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_graph
 msgid "Costs Per Month"
-msgstr ""
+msgstr "Custo por mês"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.actions.act_window,help:fleet_fuel_tank.fleet_vehicle_costs_action
 msgid "Create a new cost"
-msgstr ""
+msgstr "Criar um novo custo"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.actions.act_window,help:fleet_fuel_tank.fleet_vehicle_log_fuel_action
 msgid "Create a new fuel log"
-msgstr ""
+msgstr "Criar um abastecimento"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average__create_uid
@@ -178,7 +178,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_liters_liters__create_uid
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_odometer_filling_history__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Criado por"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average__create_date
@@ -189,13 +189,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_liters_liters__create_date
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_odometer_filling_history__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Criado em"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__currency_id
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Moeda"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__date
@@ -204,13 +204,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_odometer_filling_history__filling_date
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_cost__date
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__date
 msgid "Date when the cost has been executed"
-msgstr ""
+msgstr "Data de execução do custo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average__display_name
@@ -227,68 +227,68 @@ msgstr "Nome exibido"
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 msgid "Effective Costs"
-msgstr ""
+msgstr "Custos efectivos"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average__employee_id
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__employee_id
 msgid "Employee"
-msgstr ""
+msgstr "Empregado"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/fleet_vehicle_cost.py:0
 #, python-format
 msgid "Emptying the odometer value of a vehicle is not allowed."
-msgstr ""
+msgstr "Não é possível colocar 0 no odómetro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average__modified_date
 msgid "Filling Date"
-msgstr ""
+msgstr "Preencher data"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_cost__cost_type
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__cost_type
 msgid "For internal purpose only"
-msgstr ""
+msgstr "Para uso interno"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Fual Tank"
-msgstr ""
+msgstr "Tanque de combustível"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields.selection,name:fleet_fuel_tank.selection__fleet_vehicle_cost__cost_type__fuel
 msgid "Fuel"
-msgstr ""
+msgstr "Combustível"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_graph
 msgid "Fuel Costs Per Month"
-msgstr ""
+msgstr "Custos de combustível por mês"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Fuel Details"
-msgstr ""
+msgstr "Detalhe do combustível"
 
 #. module: fleet_fuel_tank
 #: model:ir.model,name:fleet_fuel_tank.model_fuel_filling_history
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Fuel Filling History"
-msgstr ""
+msgstr "Histórico de abastecimentos"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_filling_history__fuel_filling_id
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_odometer_filling_history__fuel_filling_odometer_id
 msgid "Fuel Filling Reference"
-msgstr ""
+msgstr "Referencia do abastecimento"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_form
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_tree
 msgid "Fuel Logs"
-msgstr ""
+msgstr "Abastecimentos"
 
 #. module: fleet_fuel_tank
 #: model:ir.actions.act_window,name:fleet_fuel_tank.fleet_vehicle_fuel_tank_action
@@ -297,33 +297,33 @@ msgstr ""
 #: model:ir.ui.menu,name:fleet_fuel_tank.fleet_vehicle_fuel_tank_menu
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fuel_tank_config_tree
 msgid "Fuel Tank"
-msgstr ""
+msgstr "Tanque de combustível"
 
 #. module: fleet_fuel_tank
 #: model:ir.model,name:fleet_fuel_tank.model_fleet_vehicle_log_fuel
 msgid "Fuel log for vehicles"
-msgstr ""
+msgstr "Abastecimentos de veículos"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle__grant_consuption_average
 msgid "Grand Consumption Average"
-msgstr ""
+msgstr "Média de consumo geral"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_search
 msgid "Group By"
-msgstr ""
+msgstr "Agrupar por"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.actions.act_window,help:fleet_fuel_tank.fleet_vehicle_log_fuel_action
 msgid "Here you can add refuelling entries for all vehicles."
-msgstr ""
+msgstr "Aqui pode adicionar abastecimentos para todos os veículos"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__fule_filling_history_ids
 msgid "History Lines"
-msgstr ""
+msgstr "Linhas de histórico"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average__id
@@ -341,52 +341,52 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__cost_ids
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__cost_ids
 msgid "Included Services"
-msgstr ""
+msgstr "Serviços incluídos"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 msgid "Indicative Costs"
-msgstr ""
+msgstr "Custos indicativos"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__inv_ref
 msgid "Invoice Reference"
-msgstr ""
+msgstr "Referência da fatura"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_fleet_vehicle_log_fuel_inherit_bi
 msgid "Kilometer"
-msgstr ""
+msgstr "Quilómetro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__last_fuel_adding_date
 msgid "Last Added Fuel Date"
-msgstr ""
+msgstr "Último abastecimento"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__last_clean_date
 msgid "Last Clean Date"
-msgstr ""
+msgstr "Última limpeza"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__last_filling_amount
 msgid "Last Filling Amount"
-msgstr ""
+msgstr "Última quantidade abastecida"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__last_filling_date
 msgid "Last Filling Date"
-msgstr ""
+msgstr "Data do último abastecimento"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Last Filling Details"
-msgstr ""
+msgstr "Detalhes do último abastecimento"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__last_filling_price_liter
 msgid "Last Filling Price"
-msgstr ""
+msgstr "Custo do último abastecimento"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average____last_update
@@ -409,7 +409,7 @@ msgstr "Última modificação em"
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_liters_liters__write_uid
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_odometer_filling_history__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ultima actualização por"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_compsuption_great_average__write_date
@@ -420,13 +420,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_liters_liters__write_date
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_odometer_filling_history__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Actualizado em"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__liter
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_kanban
 msgid "Liter"
-msgstr ""
+msgstr "Litro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_filling_history__fuel_liter
@@ -435,68 +435,68 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_odometer_filling_history__fuel_liter
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_add_liters_wizard_bi_form
 msgid "Liters"
-msgstr ""
+msgstr "Litros"
 
 #. module: fleet_fuel_tank
 #: model:ir.model,name:fleet_fuel_tank.model_liters_liters
 msgid "Liters Liters"
-msgstr ""
+msgstr "Litros"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Litres"
-msgstr ""
+msgstr "Litros"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__location
 msgid "Location"
-msgstr ""
+msgstr "Local"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.actions.act_window,help:fleet_fuel_tank.fleet_vehicle_costs_action
 msgid ""
 "Manage the costs for your different vehicles.\n"
 "            Costs are created automatically from services, contracts and fuel logs."
-msgstr ""
+msgstr "Gerencie os custos dos diferentes veículos"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__name
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__name
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__name
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_fleet_vehicle_log_fuel_inherit_bi
 msgid "New Odometer Reading"
-msgstr ""
+msgstr "Novo registo de odómetro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__notes
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__odometer_id
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__odometer_id
 msgid "Odometer"
-msgstr ""
+msgstr "Odómetro"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_form
 msgid "Odometer Details"
-msgstr ""
+msgstr "Detalhes do odómetro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model,name:fleet_fuel_tank.model_odometer_filling_history
 msgid "Odometer Filling History"
-msgstr ""
+msgstr "Histórico de registos de odómetro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__odometer
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__odometer
 msgid "Odometer Value"
-msgstr ""
+msgstr "Valor do odómetro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_cost__odometer
@@ -504,12 +504,12 @@ msgstr ""
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__odometer
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__odometer_id
 msgid "Odometer measure of the vehicle at the moment of this log"
-msgstr ""
+msgstr "Valor do odómetro no momento"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields.selection,name:fleet_fuel_tank.selection__fleet_vehicle_cost__cost_type__other
 msgid "Other"
-msgstr ""
+msgstr "Outro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__parent_id
@@ -527,17 +527,17 @@ msgstr ""
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Per Liter"
-msgstr ""
+msgstr "Por litro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__prev_odo
 msgid "Prev Odo Reading"
-msgstr ""
+msgstr "Registo anterior"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__previous_odometer
 msgid "Previous Odometer Reading"
-msgstr ""
+msgstr "Registo anterior"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_filling_history__price_per_liter
@@ -545,72 +545,72 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_search
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_tree
 msgid "Price"
-msgstr ""
+msgstr "Preço"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__price_per_liter
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_liters_liters__liter_price
 msgid "Price Per Liter"
-msgstr ""
+msgstr "Preço por litro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__purchaser_id
 msgid "Purchaser"
-msgstr ""
+msgstr "Comprador"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_form
 msgid "Refueling Details"
-msgstr ""
+msgstr "Detalhes do abastecimento"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_add_liters_wizard_bi_form
 msgid "Save"
-msgstr ""
+msgstr "Gravar"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields.selection,name:fleet_fuel_tank.selection__fleet_vehicle_cost__cost_type__services
 msgid "Services"
-msgstr ""
+msgstr "Serviços"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Tank Details"
-msgstr ""
+msgstr "Detalhes do tanque"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fuel_tank__percentage_fuel
 msgid "Total Filling Fuel"
-msgstr ""
+msgstr "Total abastecido"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.bi_form_fuel_tank1
 msgid "Total Liters"
-msgstr ""
+msgstr "Litros totais"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__amount
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__amount
 msgid "Total Price"
-msgstr ""
+msgstr "Preço total"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__cost_subtype_id
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__cost_subtype_id
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_cost__odometer_unit
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__odometer_unit
 msgid "Unit"
-msgstr ""
+msgstr "Unidade"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_cost__odometer_unit
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__odometer_unit
 msgid "Unit of the odometer "
-msgstr ""
+msgstr "Unidade do odómetro"
 
 #. module: fleet_fuel_tank
 #: model:ir.model,name:fleet_fuel_tank.model_fleet_vehicle
@@ -625,41 +625,41 @@ msgstr "Veículo"
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_cost_view_tree
 msgid "Vehicle Costs"
-msgstr ""
+msgstr "Custos de veículos"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 msgid "Vehicle Costs by Date"
-msgstr ""
+msgstr "Custos de veículos por data"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_form
 msgid "Vehicle Details"
-msgstr ""
+msgstr "Detalhes do veículo"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_cost__vehicle_id
 #: model:ir.model.fields,help:fleet_fuel_tank.field_fleet_vehicle_log_fuel__vehicle_id
 msgid "Vehicle concerned by this log"
-msgstr ""
+msgstr "Veículos associado"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_form
 msgid "Vehicle costs"
-msgstr ""
+msgstr "Custos de veículo"
 
 #. module: fleet_fuel_tank
 #: model:ir.actions.act_window,name:fleet_fuel_tank.fleet_vehicle_costs_action
 #: model:ir.ui.menu,name:fleet_fuel_tank.fleet_vehicle_costs_menu
 msgid "Vehicles Costs"
-msgstr ""
+msgstr "Custos de veículos"
 
 #. module: fleet_fuel_tank
 #: model:ir.actions.act_window,name:fleet_fuel_tank.fleet_vehicle_log_fuel_action
 #: model:ir.ui.menu,name:fleet_fuel_tank.fleet_vehicle_log_fuel_menu
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_search
 msgid "Vehicles Fuel Logs"
-msgstr ""
+msgstr "Abastecimentos"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_cost_indicative_view_graph
@@ -668,29 +668,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_cost_view_pivot
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_costs_view_search
 msgid "Vehicles costs"
-msgstr ""
+msgstr "Custos de veículos"
 
 #. module: fleet_fuel_tank
 #: model:ir.model.fields,field_description:fleet_fuel_tank.field_fleet_vehicle_log_fuel__vendor_id
 msgid "Vendor"
-msgstr ""
+msgstr "Fornecedor"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_form
 msgid "Write here any other information"
-msgstr ""
+msgstr "Notas"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/add_liters.py:0
 #, python-format
 msgid "You can have only have  liters of capacity"
-msgstr ""
+msgstr "Só podem ser litros"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/add_liters.py:0
 #, python-format
 msgid "You can not have fuel qty less than 1."
-msgstr ""
+msgstr "Não pode ser menor a 1"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_fleet_vehicle_inherit_bi
@@ -701,21 +701,21 @@ msgstr ""
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "liter value should be greater than previous Fual tank value!"
-msgstr ""
+msgstr "O valor deverá ser superior ao anterior"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "liter value should be greater than previous Fual tank value!\""
-msgstr ""
+msgstr "O valor deverá ser superior ao anterior"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "odometer value should be greater than previous odometer value!"
-msgstr ""
+msgstr "Valor deverá ser maior ao anterior"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_add_liters_wizard_bi_form
 msgid "or"
-msgstr ""
+msgstr "Ou"
