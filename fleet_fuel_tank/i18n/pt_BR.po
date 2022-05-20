@@ -713,7 +713,7 @@ msgstr "O Tanque não tem litros suficientes para o abastecer o veículo"
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "odometer value should be greater than previous odometer value!"
-msgstr "Valor deverá ser maior ao anterior"
+msgstr "O novo valor do odómetro deverá ser superior ao anterior"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_add_liters_wizard_bi_form
