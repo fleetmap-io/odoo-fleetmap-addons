@@ -26,7 +26,7 @@ msgstr "Adicionar combustível"
 #: model:ir.actions.act_window,name:fleet_fuel_tank.action_add_liters
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_add_liters_wizard_bi_form
 msgid "Add Liters"
-msgstr "Adicionar litros"
+    msgstr "Adicionar litros"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_form
@@ -701,13 +701,13 @@ msgstr ""
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "liter value should be greater than previous Fual tank value!"
-msgstr "O valor deverá ser superior ao anterior"
+msgstr "O Tanque não tem litros suficientes para o abastecimento"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "liter value should be greater than previous Fual tank value!\""
-msgstr "O valor deverá ser superior ao anterior"
+msgstr "O Tanque não tem litros suficientes para o abastecimento"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
