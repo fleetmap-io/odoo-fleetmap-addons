@@ -26,7 +26,7 @@ msgstr "Adicionar combustível"
 #: model:ir.actions.act_window,name:fleet_fuel_tank.action_add_liters
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.view_add_liters_wizard_bi_form
 msgid "Add Liters"
-    msgstr "Adicionar litros"
+msgstr "Adicionar litros"
 
 #. module: fleet_fuel_tank
 #: model_terms:ir.ui.view,arch_db:fleet_fuel_tank.fleet_vehicle_log_fuel_view_form
