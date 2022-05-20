@@ -701,13 +701,13 @@ msgstr ""
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "liter value should be greater than previous Fual tank value!"
-msgstr "O Tanque não tem litros suficientes para o abastecimento"
+msgstr "O Tanque não tem litros suficientes para o abastecer o veículo"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
 #, python-format
 msgid "liter value should be greater than previous Fual tank value!\""
-msgstr "O Tanque não tem litros suficientes para o abastecimento"
+msgstr "O Tanque não tem litros suficientes para o abastecer o veículo"
 
 #. module: fleet_fuel_tank
 #: code:addons/fleet_fuel_tank/models/fleet_tank.py:0
